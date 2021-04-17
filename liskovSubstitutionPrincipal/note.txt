@@ -1,0 +1,10 @@
+/h/ LSP-> Liskov substitution Principle
+/s/ Invented by baber liskov 
+It states that we must always be able to substitute a subclass for a base,
+If an api takes a base class we must comforably able to pass the subclass into it without breaking it
+we must always follow liskov Substitution principle
+
+Means we must not override the default behavior of the base class in the subclass like it does addition in place of substraction and so on.
+if in baseclass the expected behavior of the getName is to get the name of employee 
+but in subclass we override it to get the name of dept this violates the LSP
+//If we pass subclasss in place of base class it should now break in other areas or API's where we were using the base class
