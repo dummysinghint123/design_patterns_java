@@ -1,0 +1,8 @@
+/H/ OCP-Open closed Principle
+/S/ O-> Open for Extension 
+/S/ C-> Closed for modification
+our code must be such that it should be open for extension and closed for modification which means that if we want to add a new change in the code
+we should do a very minimal change in the existing code and all changes are in new file it should provide that support
+in the example we can see previously in the productFilter class support we want to add one more property to Product class and then 
+ad filter accordingly in the productFilter class there will be lot of changes but if we follow this principle and we create the interfaces through which now we can see if we want 
+to add a new feature or filter we need to add a new file/class related to that we dont need to change the existing code except for one file that is product class
