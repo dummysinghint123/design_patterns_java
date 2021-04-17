@@ -1,0 +1,8 @@
+/h/ DIP-> Dependency Inversion Principle
+/s/ It doesnt connect with Dependency Injection its close but not the same
+
+A. High-level modules should not depend on low-level modules. 
+Both should depend on abstractions.
+
+B. Abstractions should not depend on details. 
+Details should depend on abstractions.
