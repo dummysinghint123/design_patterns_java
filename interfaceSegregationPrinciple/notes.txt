@@ -1,0 +1,11 @@
+/h/ ISP-> Interface Segregation Principle
+/s/ Interface should be segregated properly and must have the minimal feature so that the person/company implemeting it actually implements it properly
+if we add to many method the client is forced to implement all of them even for some of them whcih they dont require or dont knwo the functionality of
+
+/H/ YAGNI=> You Ain't going to need it
+it is good to have seperate interfaces for the seperate functionalotity we may have a class whcih implements multiple interfaces, so lient is free tio implement one or more interface
+
+//In the example Machine interface is not an good practise of programmint for following reason
+1. if the user doesnt know the implementation of two methoda either he has to leave it blank ot throw exception 
+2. if he wants to throw exception he needs to get hold of source code which he doesnt has
+3. if he provides some random code or error message he still is giving user the option to use the method and break code
