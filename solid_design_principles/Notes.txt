@@ -1,0 +1,9 @@
+//SRP- Single Responsibility  Principle
+Every File or class must have a single purpose
+In the Example Journal class is only responsible to add and remove journal and modify journal
+It is not responible to do any other task like saving data to file leading data from file
+this approach is called SRP
+
+//Persistance class only does work related to persisting data
+//journal class only does work related to adding and removing Journal
+//maintaining a journal object
